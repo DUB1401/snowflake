@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.subhra74.Muon</id>
+  
+  <name>io.github.subhra74.Muon</name>
+  <summary>Graphical SFTP client and terminal emulator with helpful utilities.</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>AGPL-3.0-only</project_license>
+  
+  <recommends>
+    <display_length compare="ge">768</display_length>
+  </recommends>
+  
+  <description>
+    <p>
+      Muon is a graphical SSH client. It has a enhanced SFTP file browser, SSH terminal emulator, remote resource/process manager, server disk space analyzer, remote text editor, huge remote log viewer and lots of other helpful tools, which makes it easy to work with remote servers. Muon provides functionality similar to web based control panels but, it works over SSH from local computer, hence no installation required on server. It runs on Linux and Windows. Muon has been tested with serveral Linux and UNIX servers, like Ubuntu server, CentOS, RHEL, OpenSUSE, FreeBSD, OpenBSD, NetBSD and HP-UX.
+    </p>
+  </description>
+  
+  <launchable type="desktop-id">io.github.subhra74.Muon.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/subhra74/snowflake-screenshots/master/file-browser/1.PNG</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/subhra74/snowflake-screenshots/master/text-editor/9.PNG</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/subhra74/snowflake-screenshots/master/linux-tools/25.PNG</image>
+    </screenshot>
+  </screenshots>
+</component>
