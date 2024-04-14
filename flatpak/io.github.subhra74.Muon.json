@@ -28,7 +28,7 @@
 			"build-commands": [
 				"install -Dm644 snowflake.jar -t /app/snowflake",
 				"install -Dm755 flatpak/snowflake -t /app/bin",
-				"install -Dm644 flatpak/io.github.subhra74.Muon.png /app/share/icons/hicolor/128x128/apps/$FLAPTAK_ID}.png",
+				"install -Dm644 flatpak/io.github.subhra74.Muon.png /app/share/icons/hicolor/128x128/apps",
 				"install -Dm644 flatpak/io.github.subhra74.Muon.desktop -t /app/share/applications",
 				"install -Dm644 flatpak/io.github.subhra74.Muon.metainfo.xml -t /app/share/metainfo"
 			],
@@ -41,7 +41,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/DUB1401/snowflake",
-					"commit": "3ec74f64c9b7ce49012f8a3726855c21c16ebb1b"
+					"commit": "d6fb3bcec5341ebb6538010973c11f22a4d9c873"
 				}
 			]
 		}
