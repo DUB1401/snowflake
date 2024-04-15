@@ -3,3 +3,4 @@ Name=Muon
 Exec=snowflake
 Icon=io.github.subhra74.Muon.png
 Type=Application
+Categories=Utility;Development;Network
